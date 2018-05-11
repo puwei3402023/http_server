@@ -1,5 +1,5 @@
 {
-    "name": "weizi/http-server",
+    "name": "puweiyuer/http-server",
     "keywords": [
         "php",
         "swoole"
@@ -16,11 +16,5 @@
         "psr-4": {
             "Sw\\Http\\Server\\Web\\": "src/"
         }
-    },
-    "repositories": [
-        {
-//            "type": "composer",
-//            "url": "https://packagist.phpcomposer.com"
-        }
-    ]
+    }
 }
