@@ -1,12 +1,17 @@
 {
     "name": "weizi/http-server",
-    "type": "wei zi",
     "keywords": [
         "php",
         "swoole"
     ],
     "description": "microservice framework base on swoole",
     "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "weizi",
+            "email": "517421372@qq.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Sw\\Http\\Server\\Web\\": "src/"
@@ -14,8 +19,8 @@
     },
     "repositories": [
         {
-            "type": "composer",
-            "url": "https://packagist.phpcomposer.com"
+//            "type": "composer",
+//            "url": "https://packagist.phpcomposer.com"
         }
     ]
 }
