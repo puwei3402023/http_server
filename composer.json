@@ -1,0 +1,21 @@
+{
+    "name": "sw/http-server",
+    "type": "wei zi",
+    "keywords": [
+        "php",
+        "swoole"
+    ],
+    "description": "microservice framework base on swoole",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Sw\\Http\\Server\\Web\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    ]
+}
